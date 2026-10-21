@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f1f5f9;
+    font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+header, footer {
+    padding: 20px;
+    background: #0b1120;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+}
+nav a {
+    align-items: center;
+    margin: 0; 
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.exp01 {
+    background: lightcyan;
+}
+
+.exp02 {
+    background: lightblue;
+}
+.exp03 ul {
+    list-style: square;
+}
+.exp03 {
+    background: lightgray;
+}
+
+.exp04 {
+    background: lightskyblue;
+}
+
+.exp04 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 12px;
+}
+
+.exp04 ul li {
+    padding: 16px 24px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+}
+
+.exp04 ul li::before {
+    content: "✓";
+    color: #04AA6D;
+    margin-right: 12px;
+}
+section {
+    background: #fff;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+}
+
+.exp01, .exp02, .exp03, .exp04, .exp05{
+    padding: 38px;
+    margin: 20px auto;
+    border-radius: 20px;
+    max-width: 1000px;
+}
+
+.tabel {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08); 
+    /* border-radius: 20px; */
+}
+
+.tabel th, td {
+  border: 1px solid #d9e2ec;
+  padding: 20px;
+}
+
+.tabel thead {
+    background: #04AA6D;
+    color: #fff;
+}
+
+.tabel tbody tr::nth-child(even) {
+    background: #f9fafb;
+}
+
