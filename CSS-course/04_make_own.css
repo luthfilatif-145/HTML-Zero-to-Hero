@@ -64,7 +64,7 @@ section {
     box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
 }
 
-.exp01, .exp02, .exp03, .exp04, .exp05{
+.exp01, .exp02, .exp03, .exp04, .exp05, .exp06 {
     padding: 38px;
     margin: 20px auto;
     border-radius: 20px;
@@ -92,5 +92,35 @@ section {
 
 .tabel tbody tr::nth-child(even) {
     background: #f9fafb;
+}
+
+nav {
+  background: #04AA6D;
+  padding: 12px 24px; 
+  border: 2px solid #0b1120;
+}
+nav ul {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: #0b1120;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+nav a:hover, nav a:focus {
+  background: #0b1120;
+  color: #fff;
+}
+main .nav-sec{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+  border: 1px solid #0b1120;
 }
 
